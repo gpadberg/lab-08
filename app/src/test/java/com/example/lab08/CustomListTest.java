@@ -19,10 +19,10 @@ public class CustomListTest {
         assertFalse(list.hasCity(calgary));
     }
 
-    @Test void testCountCity() {
+    @Test void testCountCities() {
         CustomList list = new CustomList();
         City calgary = new City("Calgary", "AB");
         list.addCity(calgary);
-        assertEquals(1, list.countCity());
+        assertEquals(1, list.countCities());
     }
 }
